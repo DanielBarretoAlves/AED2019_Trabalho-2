@@ -17,4 +17,4 @@ O Usuário entra e tem duas possibilidades.
 
 1 - Ao Cadastrar um evento ele é redirecionado a um simples formulario, que evia os dados do evento para aprovação de um Administrador, quando aprovado o evento vai para o feed de eventos.
 
-2 - Ao Selecionar a opção ** Ver Eventos ** o sistema mostra todos os eventos no feed separados por categorias, se não ouver nenhum evento ele retorna uma menssagem informando que não existem eventos para essa categoria no momento.
+2 - Ao Selecionar a opção *Ver Eventos* o sistema mostra todos os eventos no feed separados por categorias, se não ouver nenhum evento ele retorna uma menssagem informando que não existem eventos para essa categoria no momento.
