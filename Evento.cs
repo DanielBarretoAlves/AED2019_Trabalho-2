@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace findE
 {
-    class Evento
+    public class Evento
     {
         private string _titulo;
         private int _minIdade;
@@ -16,6 +16,8 @@ namespace findE
             _minIdade = minIdade;
             _valor = valor;
         }
+				public Evento()
+				{}
 
         public string Titulo
         {
@@ -32,7 +34,9 @@ namespace findE
         public double Valor
         {
             get => _valor;
-            set => _valor = value;
+         
+
+				   set => _valor = value;
         }
 
 
