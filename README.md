@@ -4,7 +4,7 @@ Segundo Trabalho de AED
 Um Projeto para marcar os melhores rolês e hackatoons da sua vizinhança!
 
 ## Escopo
-- 2 Classes Pai.
+- [ ] 2 Classes Pai.
 - [ ] 3 Métodos Estáticos.
 - [ ] 2 Atributos Estáticos.
 - [ ] 2 Lançamentos de Exceções.
