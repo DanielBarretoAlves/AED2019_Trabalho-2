@@ -7,6 +7,12 @@ namespace findE
 
 		public static List <Festa> listFamilia = new List<Festa>();
 		public static List <Hackaton> listHack = new List<Hackaton>();
+
+
+		public static void criarFesta()
+		{
+			
+		}
 		
 	}
 }
