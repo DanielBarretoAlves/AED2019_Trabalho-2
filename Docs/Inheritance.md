@@ -1,0 +1,35 @@
+# This is a good example of inheritance in C-Sharp
+class *B* Received an method get from *A* this is how they can send atributes cross the classes families
+	using System;
+
+	public class A 
+	{
+		private int value = 10;
+
+		public class B : A
+		{
+				public int GetValue()
+				{
+						return this.value;
+				}     
+		}
+	}
+
+	public class C : A
+	{
+	//    public int GetValue()
+	//    {
+	//        return this.value;
+	//    }
+	}
+
+	public class Example
+	{
+			public static void Main(string[] args)
+			{
+					var b = new A.B();
+					Console.WriteLine(b.GetValue());
+			}
+	}
+	// The example displays the following output:
+	//       10
