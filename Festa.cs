@@ -7,10 +7,16 @@ namespace findE
 		private bool _banda;
 		private bool _pista;
 
-		public void getTest()
-	{
-		Console.WriteLine(_titulo);
-	}
+		public Festa(bool openBar, bool banda, bool pista)
+		{
+			_openBar = openBar;
+			_banda = banda;
+			_pista = pista;
+		}
+
+		
+	
+
 	}
 	
 	

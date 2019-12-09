@@ -6,5 +6,12 @@ namespace findE
 		private bool _doacao;
 		private bool _equipamento;
 
+		public Hackaton(bool doacao, bool equipamento)
+		{
+			_doacao = doacao;
+			_equipamento = equipamento;
+		}
+
+
 	}
 }

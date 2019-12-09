@@ -19,19 +19,19 @@ namespace findE
 				public Evento()
 				{}
 
-        public string Titulo
+        internal string Titulo
         {
             get => _titulo;
             set => _titulo = value;
         }
 
-        public int MinIdade
+        internal int MinIdade
         {
             get => _minIdade;
             set => _minIdade = value;
         }
 
-        public double Valor
+        internal double Valor
         {
             get => _valor;
          

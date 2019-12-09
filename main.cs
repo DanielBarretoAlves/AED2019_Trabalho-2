@@ -9,7 +9,7 @@ namespace findE
             //Usuario user = new Usuario();
             //user.Idade = 20;
             //Console.WriteLine(user.Idade);
-						Console.WriteLine("Hello World how you doing");
+						Controlador.menu();
 						
         }
     }
